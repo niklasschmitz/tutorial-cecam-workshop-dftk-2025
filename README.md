@@ -17,7 +17,7 @@ What you need to work with this material:
   ```bash
   julia -e 'import Pkg; Pkg.add("IJulia")'
   ```
-    (Alternative: 1. Start julia in a terminal by typing `julia` (Enter). 2. Switch "pkg" mode by pressing `]`. 3. type `add IJUlia` and press enter)
+    (Alternative: 1. Start julia in a terminal by typing `julia` (Enter). 2. Switch "pkg" mode by pressing `]`. 3. type `add IJulia` and press enter)
 - All required dependencies (Julia packages) for the workshop. You can install these by running the following command at the top-level of this repository:
   ```bash
   julia --project -e "import Pkg; Pkg.instantiate()"  # Can take 5-10 minutes to install everything
