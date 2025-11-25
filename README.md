@@ -17,9 +17,10 @@ What you need to work with this material:
   ```bash
   julia -e 'import Pkg; Pkg.add("IJulia")'
   ```
+    (Alternative: 1. Start julia in a terminal by typing `julia` (Enter). 2. Switch "pkg" mode by pressing `]`. 3. type `add IJUlia` and press enter)
 - All required dependencies (Julia packages) for the workshop. You can install these by running the following command at the top-level of this repository:
   ```bash
-  julia --project -e 'import Pkg; Pkg.instantiate()'  # Can take 5-10 minutes to install everything
+  julia --project -e "import Pkg; Pkg.instantiate()"  # Can take 5-10 minutes to install everything
   ```
 
 ## Running the notebooks
@@ -28,7 +29,7 @@ If you already have jupyter installed, you can directly open and execute the not
 
 Alternatively, you can have IJulia install its own minimal Python+Jupyter distribution upon calling:
 ```bash
-julia -e 'import IJulia; jupyterlab(dir=pwd())'
+julia -e "using IJulia; jupyterlab(dir=pwd())"
 ```
 
 
