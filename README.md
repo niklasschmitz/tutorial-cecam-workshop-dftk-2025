@@ -25,7 +25,7 @@ What you need to work with this material:
 
 ## Running the notebooks
 
-If you already have jupyter installed, you can directly open and execute the notebooks.
+If you have installed the environment above, and you already have jupyter installed, you can directly open and execute the notebooks.
 
 Alternatively, you can have IJulia install its own minimal Python+Jupyter distribution upon calling:
 ```bash
